@@ -24,7 +24,6 @@ The following steps will clone the repo, install all dependencies and execute a 
 
 ## Structure
 - `/build` - contains the code for distributing the module contained in the project
-- `/cicd` - contains continuous integration-continuous delivery code
 - `/docs` - contains documentation for using and maintaining the project
 - `/dist` - created automatically when a build is executed. Contains everything needed to distribute the PowerShell module.
 - `/source` - contains the source code for the module
