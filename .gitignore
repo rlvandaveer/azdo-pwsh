@@ -396,3 +396,13 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Build output/artifacts
+dist/
+
+# Test output/artifacts
+Test-Results.xml
+
+# Secrets and Local Only Files
+*secret*
+*local*
