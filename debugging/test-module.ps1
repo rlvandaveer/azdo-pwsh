@@ -1,0 +1,1 @@
+Invoke-psake ./build/tasks.ps1 -taskList Build, Test

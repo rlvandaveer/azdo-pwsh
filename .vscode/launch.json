@@ -5,17 +5,10 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "PowerShell: Launch Script",
-			"type": "PowerShell",
-			"request": "launch",
-			"script": "enter path or command to execute e.g.: ${workspaceFolder}/src/foo.ps1 or Invoke-Pester",
-			"cwd": "${workspaceFolder}"
-		},
-		{
 			"name": "Build Module",
 			"type": "PowerShell",
 			"request": "launch",
-			"script": ".vscode/build-module.ps1",
+			"script": "debugging/build-module.ps1",
 			"args": [],
 			"cwd": ""
 		},
@@ -23,7 +16,7 @@
 			"name": "Test Module",
 			"type": "PowerShell",
 			"request": "launch",
-			"script": ".vscode/test-module.ps1",
+			"script": "debugging/test-module.ps1",
 			"args": [],
 			"cwd": ""
 		}
